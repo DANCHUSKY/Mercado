@@ -18,7 +18,7 @@ public class Cajero extends Thread {
     // Overriding the getId() method from the Thread class
     @Override
     public long getId() {
-        // You can convert your String ID to long if needed
+        // You can convert your String ID to long if needed.
         return Long.parseLong(Id);
     }
 
